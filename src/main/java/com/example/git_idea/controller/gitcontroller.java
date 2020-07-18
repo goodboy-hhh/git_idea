@@ -10,4 +10,9 @@ public class gitcontroller {
     public String info(){
         return "hello";
     }
+
+    @RequestMapping("test")
+    public String test(){
+        return "hellotest";
+    }
 }
