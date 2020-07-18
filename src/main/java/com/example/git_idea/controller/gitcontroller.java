@@ -15,4 +15,8 @@ public class gitcontroller {
     public String test(){
         return "hellotest";
     }
+    @RequestMapping("infotest")
+    public String infotest(){
+        return "infotesthellotest";
+    }
 }
