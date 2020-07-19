@@ -8,7 +8,7 @@ public class gitcontroller {
 
     @RequestMapping("info")
     public String info(){
-        return "hello";
+        return "hello 项目经理";
     }
 
     @RequestMapping("test")
@@ -18,5 +18,6 @@ public class gitcontroller {
     @RequestMapping("infotest")
     public String infotest(){
         return "infotesthellotest";
+
     }
 }
